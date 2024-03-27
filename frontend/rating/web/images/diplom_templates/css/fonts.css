@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Acrom';
+    font-style: normal;
+    src: url('/images/fonts/Acrom-Regular.eot');
+    src: url('/images/fonts/Acrom-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/images/fonts/Acrom-Regular.woff2') format('woff2'),
+         url('/images/fonts/Acrom-Regular.woff') format('woff'),
+         url('/images/fonts/Acrom-Regular.ttf') format('truetype'),
+         url('/images/fonts/Acrom-Regular.otf') format('opentype'),
+         url('/images/fonts/Acrom-Regular.svg#Acrom-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Acrom Bold';
+    font-style: normal;
+    src: url('/images/fonts/Acrom-Bold.eot');
+    src: url('/images/fonts/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/images/fonts/Acrom-Bold.woff2') format('woff2'),
+         url('/images/fonts/Acrom-Bold.woff') format('woff'),
+         url('/images/fonts/Acrom-Bold.ttf') format('truetype'),
+         url('/images/fonts/Acrom-Bold.otf') format('opentype'),
+         url('/images/fonts/Acrom-Bold.svg#Acrom-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Acrom ExtraBold';
+    font-style: normal;
+    src: url('/images/fonts/Acrom-ExtraBold.eot');
+    src: url('/images/fonts/Acrom-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('/images/fonts/Acrom-ExtraBold.woff2') format('woff2'),
+         url('/images/fonts/Acrom-ExtraBold.woff') format('woff'),
+         url('/images/fonts/Acrom-ExtraBold.ttf') format('truetype'),
+         url('/images/fonts/Acrom-ExtraBold.otf') format('opentype'),
+         url('/images/fonts/Acrom-ExtraBold.svg#Acrom-ExtraBold') format('svg');
+}

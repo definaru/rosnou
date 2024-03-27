@@ -1,0 +1,38 @@
+@page {
+  background: transparent url(/images/diplom_templates/diplom.png) 20% 0 no-repeat;
+  background-image-resize: 6;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 13pt;
+}
+.text {
+  position: absolute;
+  top: 130mm;
+  left: 20mm;
+  width: 170mm;
+  text-align: center;
+  font-size: 15pt;
+}
+.address {
+  position: absolute;
+  top: 185mm;
+  left: 25mm;
+}
+.value {
+  position: absolute;
+  top: 195mm;
+  left: 25mm;
+}
+.pennant {
+  position: absolute;
+  top: 170mm;
+  right: 20mm;
+}
+.pennant img {
+  width: 30mm;
+  height: 30mm;
+}

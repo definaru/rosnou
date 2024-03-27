@@ -1,0 +1,7 @@
+*.pdf
+*.tgz
+*.rar
+
+/tests
+/frontend/rating/web/images/pennants/m
+/frontend/rating/web/images/pennants/m_old

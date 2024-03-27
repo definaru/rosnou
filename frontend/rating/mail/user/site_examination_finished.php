@@ -1,0 +1,2 @@
+Экспертиза вашего сайта завершена, для получения подробной
+информации пройдите по ссылке <a href="<?=\yii\helpers\Url::base(true)?><?=\yii\helpers\Url::toRoute(['users/examination/results', 'id' => $site->id])?>"><?=\yii\helpers\Url::base(true)?><?=\yii\helpers\Url::toRoute(['users/examination/results', 'id' => $site->id])?></a>

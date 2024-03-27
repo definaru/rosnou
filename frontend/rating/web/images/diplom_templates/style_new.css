@@ -1,0 +1,231 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.layout_diplom{
+    width: 210mm;
+    height:297mm;
+    background: url(../img/bottom_all.png) no-repeat center bottom transparent;
+    /*background: url(../img/test.png) no-repeat center bottom transparent;*/
+    background-size: contain;
+    padding:0;
+}
+
+.layout_diplom h2{
+    font-family: 'Acrom ExtraBold';
+    /*font-size:75px;*/
+    font-size: 33px;
+    color:#fefdfd;
+    margin:0px;
+    /*letter-spacing: -2.2px;
+    line-height: 103px;*/
+    letter-spacing: -2px;
+    line-height: 43px;
+    padding:26.2% 0 0 39.7%;
+}
+
+.layout_diplom_top{
+    /*height:1127px;*/
+    height:470px;
+}
+
+.layout_diplom.var1 .layout_diplom_top{
+    background: url(../img/top_var1.png) no-repeat center top transparent;
+    background-size:contain;
+}
+
+.layout_diplom.var2 .layout_diplom_top{
+    background: url(../img/top_var2.png) no-repeat center top transparent;
+    background-size:contain;
+}
+
+.layout_diplom.var3 .layout_diplom_top{
+    background: url(../img/top_var3.png) no-repeat center top transparent;
+    background-size:contain;
+}
+
+.layout_diplom.var4 .layout_diplom_top{
+    background: url(../img/top_var4.png) no-repeat center top transparent;
+    background-size:contain;
+}
+
+.layout_diplom.var5 .layout_diplom_top{
+    background: url(../img/top_var5.png) no-repeat center top transparent;
+    background-size:contain;
+}
+
+
+.layout_diplom_content{
+    padding:0 0 0 39.7%;
+}
+
+.layout_diplom_title{
+    /*font-size:112px;*/
+    text-transform:uppercase;
+    font-family: 'Acrom Bold';
+    /*margin: 93px 0px 29px -5px;*/
+    letter-spacing: -1px;
+    font-size: 48px;
+    margin: 38px 0px 29px -2px;
+}
+
+.layout_diplom.var1 .layout_diplom_title{
+    color:#df7c08;
+}
+
+.layout_diplom.var2 .layout_diplom_title{
+    color:#9c9a40;
+}
+
+.layout_diplom.var3 .layout_diplom_title{
+    color:#4f84c4;
+}
+
+.layout_diplom.var4 .layout_diplom_title{
+    color:#b87333;
+    /*font-size:83.5px;*/
+    font-size:34px;
+}
+
+.layout_diplom.var5 .layout_diplom_title{
+    color:#aa5d4a;
+    /*font-size:83.5px;*/
+    font-size:34px;
+}
+
+.layout_diplom_link_title{
+    /*font-size:28px;*/
+    font-size:12px;
+    font-family: 'Acrom';
+    margin: 24px 0px -33px 0px;
+}
+
+.layout_diplom_link{
+    /*font-size:37px;*/
+    color:#2c6daf;
+    text-decoration:underline;
+    font-family: 'Acrom';
+    /*margin: 0px 0px 0px 6px;*/
+    
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: -0.3px;
+}
+
+.layout_diplom_link:hover{
+    text-decoration:none;
+}
+
+.layout_diplom_name{
+    /*font-size:36px;*/
+    font-family: 'Acrom';
+    /*margin: 141px 0px 0px 4px;*/
+    letter-spacing: -0.3px;
+    /*line-height: 62px;*/
+    
+    font-size: 12px;
+    margin: 58px 0px 0px 0px;
+    line-height: 25px;
+}
+
+.layout_diplom_name span{
+    display:block;
+}
+
+.layout_diplom_name small{
+    /*font-size:24px;*/
+    font-size: 12px;
+}
+
+.layout_diplom_rez{
+    /*font-size:24px;*/
+    font-family: 'Acrom';
+    /*margin: 41px 0px 66px 5px;*/
+    letter-spacing: -0.3px;
+    /*line-height: 55px;*/
+    
+    font-size: 12px;
+    margin: 16px 0px 22px 0px;
+    line-height: 24px;
+}
+
+.layout_diplom_rez span{
+    /*font-size:36px;*/
+    font-size:20px;
+}
+
+.layout_diplom_rector{
+    /*font-size:24px;*/
+    font-family: 'Acrom';
+    margin: 0px 0px 0px 0px;
+    /*line-height: 55px;*/
+    font-size: 12px;
+    line-height: 31px;
+}
+
+.layout_diplom_rector span{
+    /*margin-left: 400px;*/
+    margin-left: 118px;
+}
+
+.layout_diplom_bottom{
+    /*padding:428px 0 155px 39.7%;*/
+    padding:148px 0 65px 39.7%;
+    clear:both;
+}
+
+.layout_diplom_bottom:after{
+    clear:both;
+    content: " ";
+    display: table; 
+}
+
+.layout_diplom_logo1{
+    background: url(../img/logo_rosnou.png) no-repeat center top transparent;
+    /*width:309px;
+    height:77px;
+    margin: 0px 0px 0px 4px;*/
+    float:left;
+    
+    width: 157px;
+    height: 37px;
+    margin: 5px 0px 0px -2px;
+    background-size: contain;
+}
+
+.layout_diplom_logo2{
+    background: url(../img/logo_ip.png) no-repeat center top transparent;
+    /*width:256px;
+    height:82px;*/
+    float:left;
+    background-size:contain;
+    /*margin: -3px 0px 0px 109px;*/
+    
+    width: 123px;
+    height: 36px;
+    margin: 7px 0px 0px 13px;
+}
+/*
+
+@media screen and (max-width: 355px){
+    .sidebar_left .sidebar_left_widget.widget8 .widget8_top .text,
+    .sidebar_left .sidebar_left_widget.widget7 .pull-left:last-child {
+        width: 77%;
+    }
+    
+    .wrap_m_history .m_history_one > .m_history_one_line > .pull-left:first-child{
+        width: auto;
+        flex: 1 1 40%;
+    }   
+    
+    header .header_top {
+        padding-bottom: 2px;
+    }
+
+    
+    .search_block{
+        margin-top:0;
+        margin-bottom:15px;
+    }
+}*/

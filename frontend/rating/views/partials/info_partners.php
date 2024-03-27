@@ -1,0 +1,1 @@
+<?=\frontend\rating\widgets\Banner\Banner::widget(['template' => 'info_partners', 'type' => \common\models\Banner::BANNER_INFO_PARTNER ]) ?>
