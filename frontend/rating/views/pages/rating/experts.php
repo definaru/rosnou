@@ -2,7 +2,6 @@
     $this->title = $this->pageHeader = $pageName;
     $this->breadcrumbs = $breadcrumbs;
 ?>
-
 <div class="row">
     <div class="col-lg-3 col-md-6 col-sm-12 pull-left:after">
         <img 
