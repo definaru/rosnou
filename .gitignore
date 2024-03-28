@@ -2,6 +2,9 @@
 *.tgz
 *.rar
 
+composer.json
+composer.lock
+/vendor
 /tests
 /frontend/rating/web/images/pennants/m
 /frontend/rating/web/images/pennants/m_old
